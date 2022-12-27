@@ -32,7 +32,7 @@
 	<body>
 		<div class="container-fluid">
 		<nav class="navbar navbar-expand-md" style="background-color:rgba(0, 0, 0, 0.7);color:#fff;border-color: #080808">
-    <p class="text-primary"><a class="navbar-brand" href="../index.php">ERP Model.</a></p>
+    <p class="text-primary"><a class="navbar-brand" href="../index.php"><b>ERP Model.</b></a></p>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <i class="fa fa-bars text-primary" aria-hidden="true"></i>
@@ -61,10 +61,10 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./admin/admin.php">Dashboard</a>
+                        <a class="nav-link" href="./admin/admin.php"><b style="color:white">Dashboard</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-primary" href="./logout.php">Logout</a>
+                        <a class="nav-link text-primary" href="./logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
@@ -74,10 +74,10 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./student/dashboard.php">Dashboard</a>
+                        <a class="nav-link" href="./student/dashboard.php"><b style="color:white">Dashboard</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./logout.php">Logout</a>
+                        <a class="nav-link" href="./logout.php"><b style="color:white">Logout<b></a>
                     </li>
                 </ul>
             ';
@@ -87,16 +87,16 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./teacher/grade.php">Grade</a>
+                        <a class="nav-link" href="./teacher/grade.php"><b style="color:white">Grade</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="../teacher/attendance.php">Attendance</a>
+                        <a class="nav-link" href="../teacher/attendance.php"><b style="color:white">Attendance</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="../profile.php">Profile</a>
+                        <a class="nav-link" href="../profile.php"><b style="color:white">Profile</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="../logout.php">Logout</a>
+                        <a class="nav-link" href="../logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
@@ -106,13 +106,13 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./accountant/index.php">Dashboard</a>
+                        <a class="nav-link" href="./accountant/index.php"><b style="color:white">Dashboard</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./accountant/index.php">Fees, Payments & Receipts</a>
+                        <a class="nav-link" href="./accountant/index.php"><b style="color:white">Fees, Payments & Receipts</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-primary" href="./logout.php">Logout</a>
+                        <a class="nav-link text-primary" href="./logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
@@ -188,19 +188,19 @@
         <div class="row">
             <div class="col-md-2 row-col">
                 <ul type="none"> 
-                    <h4 style="color:white">Timetable</h4>
+                    <h4 style="color:white"><b>Timetable</b></h4>
                     <li><a href="./timetable.php" style="color:#89CFF0">View by Standard</a></li>
                 </ul>
             </div>
             <div class="col-md-2 row-col">
                 <ul type="none">
-                    <h4 style="color:white">Syllabus</h4>
+                    <h4 style="color:white"><b>Syllabus</b></h4>
                     <li><a href="./syllabus.php" style="color:#89CFF0">View by Standard</a></li>
                 </ul>
             </div>
             <div class="col-md-2 row-col">
                 <ul type="none">
-                    <h4 style="color:white">Explore</h4>
+                    <h4 style="color:white"><b>Explore</b></h4>
                     <li><a href="../index.php" style="color:#89CFF0">Homepage</a></li>
                     <li><a href="#!" style="color:#89CFF0">TEQIP III</a></li>
                     <li><a href="#!" style="color:#89CFF0">Training & Placements</a></li>
@@ -208,7 +208,7 @@
             </div>
             <div class="col-md-3 row-col">
                 <ul type="none">
-                    <h4 style="color:white">Social Media Links</h4>
+                    <h4 style="color:white"><b>Social Media Links</b></h4>
                     <li><a href="https://www.facebook.com/swaraj4715" style="color:#89CFF0">Facebook</a></li>
                     <li><a href="https://www.facebook.com/swaraj4715" style="color:#89CFF0">Instagram</a></li>
                     <li><a href="https://twitter.com/swaraj1729" style="color:#89CFF0">Twitter</a></li>
@@ -216,7 +216,7 @@
             </div>
             <div class="col-md-3 row-col">
                 <ul type="none">
-                    <h4 style="color:white">Contact Us</h4>
+                    <h4 style="color:white"><b>Contact Us</b></h4>
                     <li style="color:white"><span>School Enterprise Resource Planning Platform, Yantromitra Solutions Private Limited</span></li><br>
                     <li><a href="https://goo.gl/maps/y3ZwTV9u2sweudjA6" target="_blank" style="color:#89CFF0"><span>Sikkim, Ravangla, Sikkim, India - 737139</span></a></li>
                     <li><a href="tel:+91 8002046457" style="color:#89CFF0"><span>+91 8002046457</span></a></li>
