@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md" style="background-color:rgba(0, 0, 0, 0.7);color:#fff;border-color: #080808">
-    <p class="text-primary"><a class="navbar-brand" href="../index.php">ERP Model.</a></p>
+<nav class="navbar navbar-expand-sm" style="background-color:rgba(0, 0, 0, 0.7);color:#fff;border-color: #080808">
+    <p class="text-primary"><a class="navbar-brand" href="../index.php"><b>ERP Model</b></a></p>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <i class="fa fa-bars text-primary" aria-hidden="true"></i>
@@ -28,10 +28,10 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./admin/admin.php">Dashboard</a>
+                        <a class="nav-link" href="./admin/admin.php"><b style="color:white">Dashboard</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-primary" href="./logout.php">Logout</a>
+                        <a class="nav-link text-primary" href="./logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
@@ -41,10 +41,10 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./student/dashboard.php">Dashboard</a>
+                        <a class="nav-link" href="./student/dashboard.php"><b style="color:white">Dashboard</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./logout.php">Logout</a>
+                        <a class="nav-link" href="./logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
@@ -54,16 +54,16 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./teacher/grade.php">Grade</a>
+                        <a class="nav-link" href="./teacher/grade.php"><b style="color:white">Grade</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="../teacher/attendance.php">Attendance</a>
+                        <a class="nav-link" href="../teacher/attendance.php"><b style="color:white">Attendance</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="../profile.php">Profile</a>
+                        <a class="nav-link" href="../profile.php"><b style="color:white">Profile</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="../logout.php">Logout</a>
+                        <a class="nav-link" href="../logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
@@ -73,13 +73,13 @@
             echo '
                 <ul class="navbar-nav text-center">
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./accountant/index.php">Dashboard</a>
+                        <a class="nav-link" href="./accountant/index.php"><b style="color:white">Dashboard</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="./accountant/index.php">Fees, Payments & Receipts</a>
+                        <a class="nav-link" href="./accountant/index.php"><b style="color:white">Fees, Payments & Receipts</b></a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-primary" href="./logout.php">Logout</a>
+                        <a class="nav-link text-primary" href="./logout.php"><b style="color:white">Logout</b></a>
                     </li>
                 </ul>
             ';
