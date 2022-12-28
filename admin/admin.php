@@ -15,7 +15,7 @@
         }
 
         .sidenav {
-            background-color: #f1f1f1;
+            background-color: lightgray;
             height: 100%;
         }
 
@@ -133,20 +133,20 @@
             <br>
 
             <div class="col-sm-10">
-                <div class="well">
+                <div class="well" style="background-color:lightgray;">
                     <h4><b>Dashboard</b></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, laudantium. Hic suscipit modi, molestiae a veniam tenetur officiis nostrum. Doloribus praesentium dolorum culpa corporis qui quas magnam corrupti enim fugiat.</p>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="well">
+                        <div class="well" style="background-color:#e6e2d3;">
                             <h4><b>Ongoing Academic Year</b></h4>
                             <p><em>01-06-22 to 01-06-23</em></p>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, eaque!</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="well">
+                        <div class="well" style="background-color:#e6e2d3;">
                             <h4><b>Ongoing Financial Year</b></h4>
                             <p><em>01-06-22 to 01-06-23</em></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sequi!</p>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Registered Students</b></h4>
                             <?php
                             $count_students = "SELECT COUNT(*) AS NUM_STUDENTS FROM students";
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Registered Teachers</b></h4>
                             <?php
                             $count_teachers = "SELECT COUNT(*) AS NUM_TEACHERS FROM teachers";
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Active Announcements</b></h4>
                             <?php
                             $count_announcements = "SELECT COUNT(*) AS NUM_ANNOUNCEMENTS FROM announcements WHERE active = 1";
@@ -188,7 +188,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Active Subjects</b></h4>
                             <?php
                             $count_subjects = "SELECT COUNT(*) AS NUM_SUBJECTS FROM subjects WHERE active = 1";
@@ -199,7 +199,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Active Classes</b></h4>
                             <?php
                             $count_classes = "SELECT COUNT(*) AS NUM_CLASSES FROM classes WHERE active = 1";
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Active Drivers</b></h4>
                             <?php
                             $count_drivers = "SELECT COUNT(*) AS NUM_DRIVERS FROM miscellaneous WHERE category = 'driver' AND active = 1";
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Active Vehicles</b></h4>
                             <?php
                             $count_vehicles = "SELECT COUNT(*) AS NUM_VEHICLES FROM vehicles WHERE active = 1";
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="well">
+                        <div class="well" style="background-color:cadetblue;">
                             <h4><b>Active Transport Services</b></h4>
                             <?php
                             $count_schedules = "SELECT COUNT(*) AS NUM_SCHEDULES FROM vehicles_schedule WHERE active = 1";
